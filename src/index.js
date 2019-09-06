@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'jquery/dist/jquery.js'
+import '@chenfengyuan/datepicker/dist/datepicker.min.css'
+import '@chenfengyuan/datepicker/dist/datepicker.min.js'
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
